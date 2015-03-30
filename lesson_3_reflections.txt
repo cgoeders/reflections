@@ -13,7 +13,7 @@ You would want to be in control of what changes were pulled into your local repo
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-
+You use clones to copy a repository onto your local machine. Branches can then be made as offshoots of a master or default branch in the local setting. Forking is useful when you want to use someone else's repository and is essentailly a clone that Github hosts for you on their servers.
 
 
 What is the benefit of having a copy of the last known state of the remote
