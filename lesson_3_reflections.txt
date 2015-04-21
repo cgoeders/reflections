@@ -19,14 +19,14 @@ You use clones to copy a repository onto your local machine. Branches can then b
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    One benefit would be the ability to work with that information on your machine without Internet access. You could compare your changes with the last known (local) copy of the remote branch.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+	If I weren't using Git or GitHub, I'd probably opt to share a Dropbox folder with collaborators. It would be simpler in that changes that I would save on my own machine, for instance, would automatically be mirrored on others' via Dropbox. However, keeping track of previous versions of a file might prove more difficult, potentially making debugging more challenging. It would also be harder to know which parts of a file were changed and by whom. Using Git and GitHub would probably simplify these processes.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    It would be useful to make changes in a branch separate from master if you're experimenting with features and are not sure if you'll want to incorporate those features into the master branch. If something goes wrong with the experimental branch, your master should still be functional. Alternatively, the benefit of keeping everything on the master branch means that pushing and pulling are somewhat more complicated.
